@@ -1,0 +1,9 @@
+div{
+    background: #1f1f7a 0%;
+    background: linear-gradient(197deg, #80005a 50%, #d4ff00 50%, #05c605 100%);
+}
+
+p{
+    padding: 20px;
+    color: aliceblue;
+}

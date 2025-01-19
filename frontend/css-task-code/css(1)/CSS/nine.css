@@ -1,0 +1,49 @@
+h1{
+    color: seagreen;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.p1{
+    color: lightskyblue;
+}
+
+.p2{
+    color: seagreen;
+    background-color: aqua;
+    font-weight: bold;
+}
+
+.div2{
+    background-color: lightskyblue;
+}
+
+.p3{
+    color: red;
+    padding-left: 5px;
+}
+
+.p4{
+    color: red;
+    padding-left: 5px;
+}
+
+.p5{
+    color: blue;
+    padding-left: 5px;
+}
+
+.div3{
+    text-align: center;
+    background-color: rgb(251, 144, 208);
+}
+
+.div3 p:nth-child(odd){
+    color: darkblue;
+    
+}
+
+.div3 p:nth-child(even){
+    color: red;
+    
+} 

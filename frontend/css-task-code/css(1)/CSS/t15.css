@@ -1,0 +1,30 @@
+.div1{
+    margin-left: 20px;
+}
+
+h2{
+    color: rgb(244, 21, 21);
+    font-weight: bold;
+}
+
+p{
+    color: red;
+}
+
+img{
+    border: 10px solid green;
+    border-radius: 50%;
+}
+
+.div2{
+    background-color: silver;
+}
+
+.p1{
+    color: black;
+}
+
+.div3{
+    background-color: green;
+}
+
