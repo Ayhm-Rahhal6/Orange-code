@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <title>Contact Us</title>
+    <style>
+        body{
+            width: 50%;
+            margin:auto;
+            padding: 3px;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 id="ccc">Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About LTS</a></li>
+                <li><a href="menu.html">Our Menu</a></li>
+                <li><a href="contact.html" id="contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <img src="image/taco3.jfif" alt="cont" width="300px" height="200px"><br>
+        <span>Little Taco shop Tacos</span>
+    </div>
+    <div style="margin-top: 10px;">
+        <fieldset style="width: auto;">
+            <legend>Send Us A Message</legend>
+            <form action="contact.html" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br>
+            </form>
+        </fieldset>
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+        <h1>Our Location</h1>
+        <p>1234 Taco Lane</p>
+        <p>San Antonio, TX 78201</p>
+        <p>Phone: 210-555-1234</p>
+        <a href="#ccc">Back to Top</a>
+    </div>
+    <hr style="border: 1px solid black;">
+    <footer>
+        <p>&copy; 2020 Little Taco Shop</p>
+    </footer>
+</body>
+</html>

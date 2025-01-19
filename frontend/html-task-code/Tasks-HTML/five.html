@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript, PHP, Coding Academy, Orange">
+    <meta name="language" content="English">
+    <title>Forms,Buttons,Input,HTML-Media</title>
+    <style>
+        .tableLanguages {
+            width: 600px;
+            margin: 0 auto;
+            border: 1px solid silver;
+            border-collapse: collapse;
+        }
+        .tableLanguages th{
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            background-color: #f4f4f4;
+        }
+        
+        
+    </style>
+
+</head>
+<body>
+    <!-- <hr style="border: 2px solid orange;"> -->
+    <h1 style="color: orange; text-align: center;">(1)</h1>
+    <div style="width: 70%; margin: 0 auto; border: 2px solid silver; border-radius: 20px;">
+        <div style="padding: 20px; text-align: center;">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" style="margin-bottom: 5px;"><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" style="margin-bottom: 5px;"><br>
+                <label for="message">Message:</label> <br>
+                <textarea name="message" id="message" rows="3" cols="30" placeholder="Enter your message" style="margin-left: 60px;"></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <hr style="border: 2px solid orange;">
+    <h1 style="color: orange; text-align: center;">(2)</h1>
+    <div>
+        <form action="">
+            <label for="fnam">First name:</label>
+            <input type="text" name="fname" id="fnam" placeholder="Enter your first name"><br>
+            <label for="Surname">Surname:</label>
+            <input type="text" name="surname" id="Surname" placeholder="Enter your surname"><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email"><br>
+            <textarea name="message" id="message" rows="10" cols="30"></textarea><br>
+            <button type="submit">Submit</button><br><br>
+            <a href="https://github.com/Ayhm-Rahhal6">© Here is my GitHub page</a>
+        </form>
+    </div>
+
+    <hr style="border: 2px solid orange;">
+    <h1 style="color: orange; text-align: center;">(3)</h1>
+    <div style="width: 70%; margin: 0 auto; border: 2px solid black;">
+        <form style="margin-left: 10px; margin-top: 10px;">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name"><br><br>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="Male" id="male">
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" value="Female" id="Female">
+            <label for="gender">Female</label><br><br>
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="Select">Select</option>
+                <option value="Syria">Syria</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Lebanon">Lebanon</option>
+                <option value="Jordan">Jordan</option>
+            </select><br><br>
+            <label for="message">Message:</label><br>
+            <textarea name="message" id="message" rows="10" cols="30"></textarea><br><br>
+            <input type="checkbox" name="accept" id="accept">
+            <label for="accept">Subscribe?</label><br><br>
+            <button type="submit" style="margin-bottom: 10px;">Submit</button>
+        </form>
+    </div>
+
+    <hr style="border: 2px solid orange;">
+    <h1 style="color: orange; text-align: center;">(4)</h1>
+    <table border="1" style="width: 50%; margin: 0 auto;">
+        <tr>
+            <th colspan="2">Sign In</th>
+        </tr>
+        <tr>
+            <td><label for="email">E-mail address</label></td>
+            <td><input type="email" name="email" id="email" placeholder="Enter your email"></td>
+        </tr>
+        <tr>
+            <td><label for="password">Password</label></td>
+            <td><input type="password" name="password" id="password" placeholder="Enter your password"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <button type="submit">Sign In</button>
+            </td>
+    </table>
+
+    <hr style="border: 2px solid orange;">
+    <h1 style="color: orange; text-align: center;">(5)</h1>
+    <div>
+        <h1>HTML introudaction vedio</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/salY_Sm6mv4?si=woyY1p1qC5c_TU77" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <hr style="border: 2px solid orange;">
+    <h1 style="color: orange; text-align: center;">(6)</h1>
+    <div>
+        <h1>Welcome to Coding Intro</h1>
+        <h2>About Programming</h2>
+        <p>Programming is the process of creating a set of instructions that tell a computer how to perform a task. Programming can be done using a variety of computer "languages," such as SQL, Java, Python, and C++.</p>
+        <h3>About HTML</h3>
+        <p>HTML is the standard markup language for creating Web pages. HTML stands for Hyper Text Markup Language. HTML describes the structure of Web pages using markup. HTML elements are the building blocks of HTML pages. HTML elements are represented by tags.</p>
+        <h3>About CSS</h3>
+        <p>CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed. This tutorial will teach you CSS from basic to advanced.</p>
+        <form>
+            <label for="fname">First Name</label><br>
+            <input type="text" name="fname" id="fname" placeholder="Enter your first name"><br>
+            <label for="lname">Last Name</label><br>
+            <input type="text" name="lname" id="lname" placeholder="Enter your last name"><br>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="Enter your email"><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <hr style="border: 1px solid silver;">
+    <table class="tableLanguages">
+        <tr>
+            <th style="text-align: left;">List of Programming languages</th>
+            <th style="text-align: left;">Full name of the Programming language</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Hyper Text Markup Language</td>
+        </tr>
+        <tr>
+            <td style="background-color: #f4f4f4;text-align: left;">CSS</td>
+            <td style="background-color: #f4f4f4;text-align: left;">Cascading Style Sheets</td>
+        </tr>
+        <tr>
+            <td>JS</td>
+            <td>JavaScript</td>
+        </tr>
+        <tr>
+            <td style="background-color: #f4f4f4;text-align: left;">PHP</td>
+            <td style="background-color: #f4f4f4;text-align: left;">PHP: Hypertext Preprocessor</td>
+        </tr>
+        <tr>
+            <td>SQL</td>
+            <td>Structured Query Language</td>
+        </tr>
+    </table>
+    
+    <hr style="border: 2px solid orange;">
+    <h1 style="color: orange; text-align: center;">(7)</h1>
+    <div>
+        <form>
+            <input type="text" name="name" placeholder="Enter your name"><br><br>
+            <input type="email" name="email" placeholder="Enter your email"><br><br>
+            <input type="text" name="subject" placeholder="Enter your subject"><br><br>
+            <textarea name="message" rows="10" cols="20" placeholder="Enter your message"></textarea><br><br>
+            <button type="submit">SEND MESSAGE</button>
+        </form>
+    </div>
+
+    <hr style="border: 2px solid orange;">
+    <h1 style="color: orange; text-align: center;">(8)</h1>
+    <div>
+        <a href="https://en.wikipedia.org/wiki/Boat">Boat</a><br><br>
+        <img src="image/Boat.jfif" alt="Boat" width="300" height="200"><br><br>
+        <h3>Description</h3>
+        <p>A boat is a watercraft of a large range of types and sizes, but generally smaller than a ship, which is distinguished by its larger size, shape, cargo or passenger capacity, or its ability to carry boats.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kYRGJ3ygFu0?si=MO06Fuh4L7_R57tJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    </div>
+
+    <hr style="border: 2px solid orange;">
+    <h1 style="color: orange; text-align: center;">(9)</h1>
+    <fieldset>
+        <legend>Personalia</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+        <button type="submit">Submit</button>
+    </fieldset>
+
+    <hr style="border: 2px solid orange;">
+    <h1 style="color: orange; text-align: center;">(10)</h1>
+    <table border="1">
+        <tr>
+            <th colspan="2">Registration Form</th>
+        </tr>
+        <tr>
+            <td>Enter Name</td>
+            <td><input type="text" name="name" placeholder="Enter your name"></td>
+        </tr>
+        <tr>
+            <td>Enter Password</td>
+            <td><input type="password" name="password" placeholder="Enter your password"></td>
+        </tr>
+        <tr>
+            <td>Enter Address</td>
+            <td><textarea name="address" rows="3" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td>Select Game</td>
+            <td>
+                <input type="checkbox" name="game" value="Hockey"> Hockey<br>
+                <input type="checkbox" name="game" value="Football"> Football<br>
+                <input type="checkbox" name="game" value="Badminton"> Badminton<br>
+                <input type="checkbox" name="game" value="Cricket"> Cricket<br>
+                <input type="checkbox" name="game" value="Volleyball"> Volleyball<br>
+            </td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+            </td>
+        </tr>
+        <tr>
+            <td>Select your age</td>
+            <td>
+                <select name="age">
+                    <option value="">Select</option>
+                    <option value="10-20">10-20</option>
+                    <option value="21-30">21-30</option>
+                    <option value="31-40">31-40</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Select Photo</td>
+            <td><input type="file" name="photo"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <button type="button">Click Me</button>
+                <button type="reset">Reset</button>
+                <button type="submit">Submit Form</button>
+            </td>
+        </tr>
+    </table>
+
+    <hr style="border: 2px solid orange;">
+    <h1 style="color: orange; text-align: center;">(11)</h1>
+    <div style="width: 70%; margin: 0 auto; border: 2px solid blueviolet; background-color: blueviolet;">
+        <div style="padding: 20px;background-color: violet; margin: 40px;">
+            <form>
+                <label for="name">Name</label><br>
+                <input type="text" name="name" id="name" placeholder="Enter your name" style="width: 100%;"><br><br>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" placeholder="Enter your email" style="width: 100%;"><br><br>
+                <label for="age">Age <small>(optional)</small></label><br>
+                <input type="number" name="age" id="age" placeholder="Enter your age" style="width: 100%;"><br><br>
+                <label for="survey">How did you like my survey</label>
+                <select name="survey" id="survey" style="width: 100%;">
+                    <option value="Excellent">Excellent</option>
+                    <option value="Good">Good</option>
+                    <option value="Average">Average</option>
+                    <option value="Poor">Poor</option>
+                </select><br><br>
+                <label for="radio">Would you recommend my pen to a frind?</label><br>
+                <input type="radio" name="recommend" value="Definitely" id="Definitely">
+                <label for="Definitely">Definitely</label><br>
+                <input type="radio" name="recommend" value="Maybe" id="Maybe">
+                <label for="Maybe">Maybe</label><br>
+                <input type="radio" name="recommend" value="Not-sure" id="Not-sure">
+                <label for="Not-sure">Not sure</label><br><br>
+                <label for="codepen">What is your favorite of codepen</label><br>
+                <select name="survey" id="survey" style="width: 100%;">
+                    <option value="Excellent">Excellent</option>
+                    <option value="Good">Good</option>
+                    <option value="Average">Average</option>
+                    <option value="Poor">Poor</option>
+                </select><br><br>
+                <label for="checkbox">What would you like to see improved in my survey?</label><br>
+                <input type="checkbox" name="improved" value="Design" id="Design">
+                <label for="Design">Design</label><br>
+                <input type="checkbox" name="improved" value="Questions" id="Questions">
+                <label for="Questions">Questions</label><br>
+                <input type="checkbox" name="improved" value="Colors" id="Colors">
+                <label for="Colors">Colors</label><br><br>
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message" rows="5" cols="30"></textarea><br><br>
+                <button type="submit" style="background-color: blueviolet; text-align: center;width: 100%;">Submit</button>
+
+
+
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>
