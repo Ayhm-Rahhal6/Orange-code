@@ -1,0 +1,203 @@
+.p1{
+    text-decoration: overline 2px green;
+    font-weight: bold;
+}
+
+.p2{
+    text-decoration: line-through red;
+    font-weight: bold;
+}
+
+.p3{
+    text-decoration: underline 2px purple;
+    font-weight: bold;
+}
+
+.p4{
+    text-decoration:overline underline 2px blue;
+    font-weight: bold;
+}
+
+.p5{
+    text-transform: uppercase;
+}
+
+.p6{
+    text-transform: lowercase;
+}
+
+.p7{
+    text-transform: capitalize;
+}
+
+.a1{
+    text-align: right;
+}
+    
+.a2{
+    text-align: center;
+}
+
+.a3{
+    text-align: justify;
+}
+
+.a4{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.a4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.a4{
+    font-family: "Trirong", serif , "font google";
+}
+
+.s1{
+    font-size: 40px;
+    font-style: normal;
+}
+
+.s2{
+    font-size: 70px;
+    font-style: italic;
+}
+
+.s3{
+    font-size: 20px;
+    font-style: inherit;
+}
+
+.div1{
+    text-align: center;
+    background-color: red;
+    opacity: 100%;
+    padding: 10px;
+}
+
+.div2{
+    text-align: center;
+    background-color: red;
+    opacity: 50%;
+    padding: 10px;
+}
+
+.div3{
+    text-align: center;
+    background-color: red;
+    opacity: 25%;
+    padding: 10px;
+}
+
+.div4{
+    text-align: center;
+    background-color: red;
+    opacity: 5%;
+    padding: 10px;
+}
+
+.s4{
+    color: rgb(64, 231, 64);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s5{
+    text-align: center;
+    text-decoration: underline 1px blue;
+    background-color: darkcyan;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.s6{
+    color: pink;
+    text-transform: uppercase;
+    text-shadow: 20px pink;
+    font-style:oblique;
+}
+
+.s7{
+    color: rgb(164, 164, 8);
+    text-decoration: underline 1px solid red;
+    margin-left: 50px;
+}
+
+.d1{
+    overflow: visible;
+    border: 1px solid black;
+    background-color: orange;
+    height: 43px;
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 200px;
+}
+
+.d2{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 200px;
+}
+
+.d3{
+    border: 1px solid black;
+    background-color: rgb(14, 161, 235);
+    overflow: scroll;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 200px;
+}
+
+.d4{
+    border: 1px solid black;
+    background-color: purple;
+    overflow: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 200px;
+}
+
+.d5{
+    border: 1px solid black;
+    background-color: green;
+    overflow-y: scroll;
+    overflow-x: visible;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 200px;
+}
+
+.hed{
+    color: green;
+    text-decoration: underline;
+}
+
+.div5{
+    width: 400px;
+    height: 100px;
+    background-color: black;
+    color: rgb(255, 255, 0);
+    overflow: scroll;
+}
+
+.j1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: red;
+}
+
+#img1{
+    width: 200px;
+    height: 200px;
+}
+
+#img2{
+    width: 200px;
+    height: 200px;
+    opacity: 50%;
+}
