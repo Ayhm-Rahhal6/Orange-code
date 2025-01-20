@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    background-color: purple;
+    
+    margin: 10%;
+}
+
+p{
+    background-color: white;
+    padding: 20px;
+}

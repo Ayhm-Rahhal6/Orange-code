@@ -1,0 +1,220 @@
+.p1{
+    background-color: yellow;
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.div1{
+    background-color: rgb(245, 218, 169);
+}
+
+.span1{
+    border: 2px solid black;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.span2{
+    border: 2px solid black;
+    margin-right: 30px;
+}
+
+.span3{
+    border: 2px solid black;
+    margin-right: 30px;
+}
+
+.span4{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.f1{
+    border: 2px solid silver;
+    margin-right: 450px;
+    text-align: center;
+}
+
+.f2{
+    border: 2px solid black;
+    margin-right: 450px;
+    text-align: center;
+}
+
+.f3{
+    border: 2px double silver;
+    margin-right: 450px;
+    text-align: center;
+}
+
+.div2{
+    border: 2px solid black;
+    margin: 100px;
+    box-shadow: 5px 7px 5px 5px;
+}
+
+.f4{
+    border: 3px solid black;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.f5{
+    border: 3px solid black;
+    padding: 20px;
+    background-color: yellow;
+    margin: 40px;
+}
+
+.f6{
+    padding: 20px;
+    border: 5px solid rgb(163, 126, 77);
+    margin: 0%;
+}
+
+.div3{
+    border: 5px solid black;
+}
+
+.w1{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.div4{
+    border-top: 40px solid rgb(76, 125, 248);
+    border-bottom: 40px solid pink;
+    text-align: center;
+}
+
+.u1{
+    text-align: center;
+}
+
+.but1{
+    padding: 5px;
+    color: white;
+    background-color: rgb(26, 216, 26);
+    margin-bottom: 10px;
+}
+
+.div5{
+    text-align: center;
+    background-color: black;
+    margin: 20%;
+    padding: 50px;
+}
+
+.u2{
+    background-color: white;
+    padding: 20px;
+    color: blue;
+    font-weight: bold;
+    box-shadow: 5px 10px 5px 5px;
+}
+
+
+.div6{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid blue;
+    box-shadow: 
+      10px 10px 0px 0px red, 
+      20px 20px 0px 0px orange, 
+      30px 30px 0px 0px yellow, 
+      40px 40px 0px 0px green;
+
+    margin-bottom: 70px;
+}
+
+
+.t1{
+    border-right: 2px solid black;
+    border-top: 2px dashed black;
+    border-left: 2px solid black;
+    border-bottom: 2px dotted black;
+    text-align: center;
+    padding: 10px;
+    margin: 10%;
+}
+
+.t2{
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px dotted black;
+    border-bottom: 2px dashed black;
+    text-align: center;
+    padding: 10px;
+    margin: 10%;
+}
+
+.t3{
+    border-right: 2px dotted black;
+    border-top: 2px dotted black;
+    border-left: 2px dotted black;
+    border-bottom: 2px dotted black;
+    text-align: center;
+    padding: 10px;
+    margin: 10%;
+}
+
+.t4{
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 10%;
+}
+
+.t5{
+    border-right: 2px solid blue;
+    border-top: 2px solid blue;
+    border-left: 2px solid blue;
+    border-bottom: 2px solid blue;
+    text-align: center;
+    padding: 10px;
+    margin: 10%;
+}
+
+.t5{
+    border-right: 2px solid blue;
+    border-top: 2px solid green;
+    border-left: 2px solid green;
+    border-bottom: 2px dotted green;
+    text-align: center;
+    padding: 10px;
+    margin: 10%;
+}
+
+.div7{
+    border: 4px solid brown;
+    background-color: blanchedalmond;
+    align-items: baseline;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-right: 20%;
+    margin-bottom: 60%;
+}
+
+.mm1{
+    border: 6px solid brown;
+}
+
+.foxpar{
+    background-color: yellow;
+    border: 3px dashed brown;
+    width: 400px;
+    height: 200px;
+    overflow: scroll;
+}
