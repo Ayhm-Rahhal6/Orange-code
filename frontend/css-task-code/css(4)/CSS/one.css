@@ -1,0 +1,46 @@
+.div1{
+    background-color: blue;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    text-align: left;
+    border-radius: 10px;
+    z-index: 1;
+    margin:80px;
+}
+
+.div2{
+    background-color: red;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    text-align: left;
+    border-radius: 10px;
+    z-index: 2;
+    margin:100px;
+
+}
+
+.div3{
+    background-color: yellow;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    text-align: left;
+    border-radius: 10px;
+    z-index: 3;
+    margin:120px;
+
+}
+
+.div4{
+    background-color: green;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    text-align: left;
+    border-radius: 10px;
+    z-index: 4;
+    margin:140px;
+
+}
