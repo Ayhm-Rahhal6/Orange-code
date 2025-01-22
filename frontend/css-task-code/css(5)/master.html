@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="CSS/master.css">
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="circle" onclick="breakCircle(event)">1</a>
+    <a href="two.html" class="circle" onclick="breakCircle(event)">2</a>
+    <a href="three.html" class="circle" onclick="breakCircle(event)">3</a>
+    <a href="four.html" class="circle" onclick="breakCircle(event)">4</a>
+    <a href="five.html" class="circle" onclick="breakCircle(event)">5</a>
+    <a href="6.html" class="circle" onclick="breakCircle(event)">6</a>
+    <a href="7.html" class="circle" onclick="breakCircle(event)">7</a>
+    <a href="8.html" class="circle" onclick="breakCircle(event)">8</a>
+    <a href="9.html" class="circle" onclick="breakCircle(event)">9</a>
+    <a href="10.html" class="circle" onclick="breakCircle(event)">10</a>
+    <a href="11.html" class="circle" onclick="breakCircle(event)">11</a>
+    <a href="12.html" class="circle" onclick="breakCircle(event)">12</a>
+    <a href="13.html" class="circle" onclick="breakCircle(event)">13</a>
+  </div>
+  <script>
+    function breakCircle(event) {
+  event.preventDefault();
+  const circle = event.currentTarget;
+
+  
+  circle.classList.add('broken');
+
+  
+  setTimeout(() => {
+    window.location.href = circle.href;
+  }, 500); 
+}
+
+  </script>
+</body>
+</html>

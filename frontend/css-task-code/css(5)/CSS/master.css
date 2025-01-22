@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(25, 119, 249);
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    gap: 20px;
+    width: 1000px;
+  }
+  
+  .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: #3498db;
+    transition: transform 0.3s, background-color 0.3s, opacity 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .circle:hover {
+    background-color: #2980b9;
+    transform: scale(1.1);
+  }
+  
+  .circle.broken {
+    animation: break 0.5s forwards;
+  }
+  
+  @keyframes break {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0.5) rotate(30deg);
+      opacity: 0;
+    }
+  }
+  

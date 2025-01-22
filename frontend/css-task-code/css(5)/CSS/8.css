@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 500PX;
+    margin: auto;
+}
+
+.item1{
+    background-color: red;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    flex-basis: 70%;
+}
+
+.item2{
+    background-color: blue;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    flex-basis: 30%;
+}

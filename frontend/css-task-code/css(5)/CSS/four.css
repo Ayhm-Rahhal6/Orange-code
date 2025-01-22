@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.container > p{
+    background-color: rgb(77, 114, 152);
+    border: 2px solid rgb(127, 171, 186);
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    padding: 3px;
+    color: white;
+}

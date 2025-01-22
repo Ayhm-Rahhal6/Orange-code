@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: blue;
+    border: 2px solid rgb(45, 143, 255);
+    box-shadow: 0 4px 8px 0 rgb(240, 240, 0), 0 6px 20px 0 rgb(240, 240, 0);
+    width: 300px;
+    margin: auto;
+    row-gap: 20px;
+    padding: 15px;
+}
+
+.container > div{
+    background-color: rgb(45, 143, 255);
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+    padding-right: 20px;
+    padding: 10px;
+}

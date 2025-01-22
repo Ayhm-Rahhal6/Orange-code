@@ -1,0 +1,89 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10px;
+    width: 400px;
+    border: 10px double rgb(243, 243, 11) ;
+    box-shadow: 0 4px 8px 0 rgb(240, 6, 6), 0 6px 20px 0 rgba(26, 11, 237, 0.906);}
+
+.item1{
+    text-align: center;
+    align-self: auto;
+    background-color: red;
+    color: white;
+    font-size: x-large;
+}
+
+.item2{
+    text-align: center;
+    align-self: auto;
+    background-color: rgb(21, 40, 241);
+    color: white;
+    font-size: x-large;
+}
+
+.item3{
+    text-align: center;
+    align-self: auto;
+    background-color: red;
+    color: white;
+    font-size: x-large;
+}
+
+.item4{
+    text-align: center;
+    align-self: auto;
+    background-color: rgb(21, 40, 241);
+    color: white;
+    font-size: x-large;
+}
+
+.item5{
+    text-align: center;
+    align-self: auto;
+    background-color: red;
+    color: white;
+    font-size: x-large;
+}
+
+.item6{
+    text-align: center;
+    align-self: auto;
+    background-color: rgb(21, 40, 241);
+    color: white;
+    font-size: x-large;
+}
+
+.item7{
+    text-align: center;
+    align-self: auto;
+    background-color: red;
+    color: white;
+    font-size: x-large;
+}
+
+.item8{
+    text-align: center;
+    align-self: auto;
+    background-color: rgb(21, 40, 241);
+    color: white;
+    font-size: x-large;
+}
+
+.item9{
+    text-align: center;
+    align-self: auto;
+    background-color:red;
+    color: white;
+    font-size: x-large;
+}
+
+.item10{
+    text-align: center;
+    align-self: auto;
+    background-color: rgb(21, 40, 241);
+    color: white;
+    font-size: x-large;
+}

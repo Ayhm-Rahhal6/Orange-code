@@ -1,0 +1,93 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: auto;
+    border: 5px solid orangered;
+}
+
+.item1{
+    color: white;
+    background-color: red;
+    font-size: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 5px;
+}
+
+.item2{
+    color: white;
+    background-color: blue;
+    font-size: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 5px;
+}
+
+.item3{
+    color: white;
+    background-color: blueviolet;
+    font-size: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 5px;
+}
+
+.item4{
+    color: white;
+    background-color: gold;
+    font-size: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 5px;
+}
+.item5{
+    color: white;
+    background-color: rosybrown;
+    font-size: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 5px;
+}
+.item6{
+    color: white;
+    background-color: green;
+    font-size: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 5px;
+}
+.item7{
+    color: white;
+    background-color: purple;
+    font-size: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 5px;
+}
+.item8{
+    color: white;
+    background-color: pink;
+    font-size: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 5px;
+}
+.item9{
+    color: white;
+    background-color: palegreen;
+    font-size: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 5px;
+}
+.item10{
+    color: white;
+    background-color: gold;
+    font-size: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin: 5px;
+}
