@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    border: 3px solid red;
+    grid-row: 1;
+    gap: 10px;
+    margin: auto;
+}
+
+.container > div{
+    text-align: center;
+    border: 1px solid blue;
+    width: 100px;
+    padding: 20px;
+    background-color: yellow;
+    color: blue;
+}
