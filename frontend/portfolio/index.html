@@ -2,35 +2,547 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <!-- Boxicons link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- css file link -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
-        <a href="#" class="logo">Ayhm</a>
+    <!-- Navbar -->
+     <nav class="nav">
+        <ul class="nav-list">
+            <li class="active">
+                <i class='bx bx-home-alt'></i>
+                <span class="tooltip">Home</span>
+            </li>
+            <li>
+                <i class='bx bx-user'></i>
+                <span class="tooltip">About</span>
+            </li>
+            <li>
+                <i class='bx bx-detail'></i>
+                <span class="tooltip">Resume</span>
+            </li>
+            <li>
+                <i class='bx bx-briefcase'></i>
+                <span class="tooltip">Project</span>
+            </li>
+            <li>
+                <i class='bx bx-envelope'></i>
+                <span class="tooltip">Contact</span>
+            </li>
+        </ul>
+     </nav>
 
-        <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Skill</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
-        </nav>
-    </header>
-    <section class="home">
-        <div class="home-content">
-            <h3>Hello, It's Me</h3>
-            <h1>Ayhm Rahhal</h1>
-            <h3>And I'm a</h3>
-            <p>I am a Full Stack Web Developer, specializing in front-end development and back-end systems, 
-                <br>with advanced skills in designing and building websites using the latest tools and technologies.
-            </p>
-            <div class="home-scl">
-                
-            </div>
+     <div class="container">
+        <div class="box">
+            <!-- home section -->
+             <section class="section home active">
+                <div class="home-info">
+                    <h3>Hello I'm</h3>
+                    <h1>Ayhm Rahhal</h1>
+                    <h3>Full Stack Web Developer</h3>
+                    <p class="desc">
+                        I am a Full Stack Web Developer, specializing in front-end development and back-end systems, with advanced skills in designing and building websites using the latest tools and technologies.
+                    </p>
+                    <div class="btn-sci">
+                        <a href="pdf/Ayhm+Ahmed+Mahmoud+Rahhal+CV (2) (8).pdf" class="btn" download="CV">Download CV</a>
+                        <div class="sci">
+                            <a href="https://github.com/Ayhm-Rahhal6">
+                                <i class='bx bxl-github'></i>
+                                <span class="tooltip">
+                                    Github
+                                </span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/ayhm-rahhal/">
+                                <i class='bx bxl-linkedin'></i>
+                                <span class="tooltip">
+                                    Linkedin
+                                </span>
+                            </a>
+                            <a href="https://www.instagram.com/ayhmrahhal?igsh=MWhsa3N6d2U4MGNvOQ==">
+                                <i class='bx bxl-instagram' ></i>
+                                <span class="tooltip">
+                                    Instagram
+                                </span>
+                            </a>
+                            <a href="mailto:ayhmrahhal66@gmail.com">
+                                <i class='bx bxl-gmail' ></i>
+                                <span class="tooltip">
+                                    Gmail
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="img-wrapper">
+                    <div class="img-box home-img">
+                        <img src="image/img(home).png" alt="Ayhm-Rahhal">
+                    </div>
+                </div>
+             </section>
+
+
+             <!-- about section -->
+              <section class="section about">
+                <div class="img-wrapper">
+                    <div class="img-box about-img">
+                        <img src="image/img(home).png" alt="Ayhm-Rahhal">
+                    </div>
+                </div>
+
+                <div class="about-info">
+                    <h2 class="title">
+                        About Me
+                    </h2>
+                    <h3>Full Stack Web Developer</h3>
+                    <p class="desc">
+                        I am a passionate Full Stack Web Developer with expertise in both front-end and back-end development. I specialize in building dynamic, responsive websites and applications using modern tools and technologies. With a strong focus on clean code, user-centric design, and problem-solving, I strive to deliver efficient and scalable digital solutions. My goal is to create impactful web experiences that align with client needs and industry standards.
+                    </p>
+                    <a href="#" class="btn">
+                        View More
+                    </a>
+                </div>
+              </section>
+
+
+                <!-- resume(experience, skills, education) section -->
+                <section class="section resume">
+                    <h2 class="title">
+                        Resume
+                    </h2>
+                    <div class="tab-box">
+                        <div class="tab-list resume-list active">
+                            <h3>Experience</h3>
+                        </div>
+                        <div class="tab-list resume-list">
+                            <h3>Skills</h3>
+                        </div>
+                        <div class="tab-list resume-list">
+                            <h3>Education</h3>
+                        </div>
+                    </div>
+                    <div class="tab-wrapper">
+                        <div class="tab-grid resume-box experience active">
+                            <div class="tab-item resume-item">
+                                <h4>2025 - Present</h4>
+                                <h4>Full-Stack Developer</h4>
+                                <h4>Trainee at Orange Coding</h4>
+                                <p>As a Full Stack Developer Intern at Orange Coding, I gained hands-on experience in front-end and back-end development using technologies like HTML, CSS, JavaScript, React.js and PHP, creating responsive and scalable web pages.</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <h4>2025 - Present</h4>
+                                <h4>Frontend Developer</h4>
+                                <h4>Trainee at Orange Coding</h4>
+                                <p>As a Full Stack Developer Intern at Orange Coding, I gained hands-on experience in front-end and back-end development using technologies like HTML, CSS, JavaScript, React.js and PHP, creating responsive and scalable web pages.</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <h4>2024 - 2024</h4>
+                                <h4>Content Moderator</h4>
+                                <h4>Extensya</h4>
+                                <p>As a Content Moderator, I reviewed online content to ensure it followed guidelines and removed inappropriate material.</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <h4>2024 - 2024</h4>
+                                <h4>Full-Stack Developer</h4>
+                                <h4>Clever Mind</h4>
+                                <p>As a Full-Stack Developer Trainee at Clever Mind, I worked with HTML, CSS, JavaScript, React, and Node.js to build and optimize web applications.</p>
+                            </div>
+                            
+                        </div>
+                        <div class="tab-grid resume-box skills">
+                            <div class="tab-item resume-item">
+                                <i class='bx bxl-html5'></i>
+                                <p>HTML5</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <i class='bx bxl-css3' ></i>
+                                <p>CSS3</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <i class='bx bxl-javascript' ></i>
+                                <p>JavaScript</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <i class='bx bxl-react' ></i>
+                                <p>React.js</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <i class='bx bxl-php' ></i>
+                                <p>PHP</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <i class='bx bxl-java' ></i>
+                                <p>Java</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <i class='bx bxl-c-plus-plus' ></i>
+                                <p>C++</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <i class='bx bxl-bootstrap' ></i>
+                                <p>Bootstrap</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <i class='bx bxl-php' ></i>
+                                <p>Laravel</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <i class='bx bxl-git' ></i>
+                                <p>Git</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <i class='bx bxl-github' ></i>
+                                <p>Github</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <i class='bx bxl-mongodb' ></i>
+                                <p>MongoDB</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <i class='bx bxl-figma' ></i>
+                                <p>Figma</p>
+                            </div>
+                        </div>
+                        <div class="tab-grid resume-box education">
+                            <div class="tab-item resume-item">
+                                <h4>2024</h4>
+                                <h4> Computer Science</h4>
+                                <h4>Balqa Applied University (BAU)</h4>
+                                <p>Bachelor of Computer Science, Balqa Applied University (BAU), Salt, Jordan.</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <h4>2024</h4>
+                                <h4>Introduction to HTML5</h4>
+                                <h4>Online course(Sololearn)</h4>
+                                <p>I learned the basics of HTML, including structuring web pages using tags and elements.</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <h4>2024</h4>
+                                <h4>CSS3</h4>
+                                <h4>Online course(HTUx)</h4>
+                                <p>I learned the fundamentals of CSS, including styling web pages, managing layouts, and enhancing designs with colors, fonts, and responsiveness.</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <h4>2019</h4>
+                                <h4>HTML5</h4>
+                                <h4>Online course(HTUx)</h4>
+                                <p>I learned the essentials of HTML, including structuring web content with tags, creating links, adding images, and building well-organized pages.</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <h4>2024</h4>
+                                <h4>Basic Concepts</h4>
+                                <h4>Online course(HTUx)</h4>
+                                <p>I learned the basics of web structure and the roles of HTML, CSS, and JavaScript.</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <h4>2024</h4>
+                                <h4>Python</h4>
+                                <h4>Online course(Orange)</h4>
+                                <p>I learned the fundamentals of Python, including syntax, data structures, and problem-solving techniques.</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <h4>2024</h4>
+                                <h4>Programming Fundamentals</h4>
+                                <h4>Online course(UDACITY)</h4>
+                                <p>I learned the core principles of programming, including variables, loops, conditionals, and problem-solving strategies.</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <h4>2024</h4>
+                                <h4>Android Developer Basics</h4>
+                                <h4>Online course(UDACITY)</h4>
+                                <p>I learned the basics of Android development, including building apps, designing user interfaces, and understanding activity lifecycles.</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <h4>2024</h4>
+                                <h4>Presentation Skills</h4>
+                                <h4>Online course(Pioneers)</h4>
+                                <p>I learned effective presentation techniques, including structuring content, engaging the audience, and using visuals to enhance communication.</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <h4>2023</h4>
+                                <h4>HTML5</h4>
+                                <h4>Online course(Orange)</h4>
+                                <p>I learned advanced HTML5 features, including semantic elements and multimedia integration.</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <h4>2023</h4>
+                                <h4>CSS3</h4>
+                                <h4>Online course(Orange)</h4>
+                                <p>I learned advanced CSS3 techniques, including animations, transitions, and responsive design for modern web layouts.</p>
+                            </div>
+                            <div class="tab-item resume-item">
+                                <h4>2023</h4>
+                                <h4>JavaScript</h4>
+                                <h4>Online course(Orange)</h4>
+                                <p>I learned the fundamentals of JavaScript, including variables, functions, and DOM manipulation to create interactive web pages.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- portfolio(work, service) section -->
+                 <section class="section portfolio">
+                    <h2 class="title">
+                        portfolio
+                    </h2>
+                    <div class="tab-box">
+                        <div class="tab-list portfolio-list active">
+                            <h3>My Work</h3>
+                        </div>
+                        <div class="tab-list portfolio-list">
+                            <h3>My Service</h3>
+                        </div>
+                    </div>
+                    <div class="tab-wrapper">
+                        <div class="tab-grid portfolio-box work active">
+                            <div class="tab-item portfolio-item">
+                                <div class="work-imge">
+                                    <img src="image/portfolio-img.png" alt="portfolio">
+                                </div>
+                                <div class="work-info">
+                                    <h4>Frontend Project</h4>
+                                    <p>I built a personal portfolio project to showcase my skills and previous web development work, featuring a responsive design and interactive elements.</p>
+                                    <div class="tech-used">
+                                        <p>HTML5, CSS3, JavaScript.
+                                        </p>
+                                    </div>
+                                    <div class="portfolio-icon work-icon">
+                                        <a href="#">
+                                            <i class='bx bx-arrow-back' ></i>
+                                            <span class="tooltip">
+                                                Preview
+                                            </span>
+                                        </a>
+                                        <a href="https://github.com/Ayhm-Rahhal6">
+                                            <i class='bx bxl-github' ></i>
+                                            <span class="tooltip">
+                                                Github Repository
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-item portfolio-item">
+                                <div class="work-imge">
+                                    <img src="image/portfolio-img.png" alt="portfolio">
+                                </div>
+                                <div class="work-info">
+                                    <h4>Frontend Project</h4>
+                                    <p>I built a personal portfolio project to showcase my skills and previous web development work, featuring a responsive design and interactive elements.</p>
+                                    <div class="tech-used">
+                                        <p>HTML5, CSS3, JavaScript.
+                                        </p>
+                                    </div>
+                                    <div class="portfolio-icon work-icon">
+                                        <a href="#">
+                                            <i class='bx bx-arrow-back' ></i>
+                                            <span class="tooltip">
+                                                Preview
+                                            </span>
+                                        </a>
+                                        <a href="https://github.com/Ayhm-Rahhal6">
+                                            <i class='bx bxl-github' ></i>
+                                            <span class="tooltip">
+                                                Github Repository
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-item portfolio-item">
+                                <div class="work-imge">
+                                    <img src="image/JoSport.png" alt="JoSport">
+                                </div>
+                                <div class="work-info">
+                                    <h4>Full Stack Project</h4>
+                                    <p>JoSport is a platform that allows users to book sports facilities for any sport, while also offering an online store for sports equipment and providing detailed rules for each sport.</p>
+                                    <div class="tech-used">
+                                        <p>HTML5, CSS3, JavaScript, Python,
+                                            MongoDB, FastAPI
+                                        </p>
+                                    </div>
+                                    <div class="portfolio-icon work-icon">
+                                        <a href="#">
+                                            <i class='bx bx-arrow-back' ></i>
+                                            <span class="tooltip">
+                                                Preview
+                                            </span>
+                                        </a>
+                                        <a href="https://github.com/Ayhm-Rahhal6">
+                                            <i class='bx bxl-github' ></i>
+                                            <span class="tooltip">
+                                                Github Repository
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-item portfolio-item">
+                                <div class="work-imge">
+                                    <img src="image/JoSport.png" alt="JoSport">
+                                </div>
+                                <div class="work-info">
+                                    <h4>Full Stack Project</h4>
+                                    <p>JoSport is a platform that allows users to book sports facilities for any sport, while also offering an online store for sports equipment and providing detailed rules for each sport.</p>
+                                    <div class="tech-used">
+                                        <p>HTML5, CSS3, JavaScript, Python,
+                                            MongoDB, FastAPI
+                                        </p>
+                                    </div>
+                                    <div class="portfolio-icon work-icon">
+                                        <a href="#">
+                                            <i class='bx bx-arrow-back' ></i>
+                                            <span class="tooltip">
+                                                Preview
+                                            </span>
+                                        </a>
+                                        <a href="https://github.com/Ayhm-Rahhal6">
+                                            <i class='bx bxl-github' ></i>
+                                            <span class="tooltip">
+                                                Github Repository
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                        
+                        <div class="tab-grid portfolio-box service">
+                            <div class="tab-item portfolio-item">
+                                <div class="portfolio-icon service-icon">
+                                    <i class='bx bx-code-alt icon' ></i>
+                                    <a href="#">
+                                        <i class='bx bx-arrow-back' ></i>
+                                    </a>
+                                </div>
+                                <h4>Website Development</h4>
+                                <p>I create dynamic, responsive, and user-friendly websites tailored to meet client needs, ensuring excellent performance and accessibility.</p>
+                            </div>
+
+                            <div class="tab-item portfolio-item">
+                                <div class="portfolio-icon service-icon">
+                                    <i class='bx bx-code-alt icon' ></i>
+                                    <a href="#">
+                                        <i class='bx bx-arrow-back' ></i>
+                                    </a>
+                                </div>
+                                <h4>Front-End Development</h4>
+                                <p>I design and develop visually appealing interfaces using modern technologies like HTML, CSS, and JavaScript, ensuring seamless user experiences.</p>
+                            </div>
+
+                            <div class="tab-item portfolio-item">
+                                <div class="portfolio-icon service-icon">
+                                    <i class='bx bx-code-alt icon' ></i>
+                                    <a href="#">
+                                        <i class='bx bx-arrow-back' ></i>
+                                    </a>
+                                </div>
+                                <h4>Back-End Development</h4>
+                                <p>I build robust and scalable server-side applications, managing databases and APIs for smooth functionality and data handling.</p>
+                            </div>
+
+                            <div class="tab-item portfolio-item">
+                                <div class="portfolio-icon service-icon">
+                                    <i class='bx bx-code-alt icon' ></i>
+                                    <a href="#">
+                                        <i class='bx bx-arrow-back' ></i>
+                                    </a>
+                                </div>
+                                <h4>Full-Stack Development</h4>
+                                <p>I handle both front-end and back-end development, delivering complete end-to-end web solutions.</p>
+                            </div>
+
+                            <div class="tab-item portfolio-item">
+                                <div class="portfolio-icon service-icon">
+                                    <i class='bx bx-code-alt icon' ></i>
+                                    <a href="#">
+                                        <i class='bx bx-arrow-back' ></i>
+                                    </a>
+                                </div>
+                                <h4>Responsive Design</h4>
+                                <p>I ensure websites are mobile-friendly and optimized to look great on all screen sizes and devices.</p>
+                            </div>
+
+                            <div class="tab-item portfolio-item">
+                                <div class="portfolio-icon service-icon">
+                                    <i class='bx bx-code-alt icon' ></i>
+                                    <a href="#">
+                                        <i class='bx bx-arrow-back' ></i>
+                                    </a>
+                                </div>
+                                <h4>E-Commerce Solutions</h4>
+                                <p>I develop e-commerce platforms with secure payment integration, product management, and user-friendly interfaces.</p>
+                            </div>
+                            <div class="tab-item portfolio-item">
+                                <div class="portfolio-icon service-icon">
+                                    <i class='bx bx-code-alt icon' ></i>
+                                    <a href="#">
+                                        <i class='bx bx-arrow-back' ></i>
+                                    </a>
+                                </div>
+                                <h4>API Integration</h4>
+                                <p>I integrate third-party APIs to enhance website functionality, such as payment gateways, social logins, and more.</p>
+                            </div>
+                            <div class="tab-item portfolio-item">
+                                <div class="portfolio-icon service-icon">
+                                    <i class='bx bx-code-alt icon' ></i>
+                                    <a href="#">
+                                        <i class='bx bx-arrow-back' ></i>
+                                    </a>
+                                </div>
+                                <h4>Deployment and Maintenance</h4>
+                                <p>I deploy websites to live servers and provide ongoing support to ensure their stability and reliability.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                 <!-- contact section -->
+                <section class="section contact active">
+                    <h2 class="title">Contact</h2>
+                    <div class="contact-wrapper">
+                        <form action="" class="contact-form">
+                            <h3>Let's work Together!</h3>
+                            <div class="field-box">
+                                <input type="text" placeholder="Full Name" required>
+                                
+                                <input type="email" placeholder="Email Address" required>
+                                
+                                <input type="text" placeholder="Phone Number" required>
+                                
+                                <input type="text" placeholder="Email Subject" required>
+
+                                <textarea name=""id=""       placeholder="Your Message" required></textarea>
+                            </div>
+                            <div class="contact-btn">
+                                <button type="submit" class="btn">
+                                    Send Message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+
         </div>
+     </div>
+    
 
-    </section>
+
+
+
+
+
+    <!-- JavaScript file script -->
+    <script src="js/main.js"></script>
+    
 </body>
 </html>
