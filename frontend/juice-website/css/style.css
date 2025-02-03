@@ -13,6 +13,7 @@
     --main-color:#588D11;
     --secondary-color:#434342;
     --text-color :#333;
+    --th-color: rgb(226, 34, 86);
 }
 
 
@@ -92,13 +93,20 @@ nav{
     height: 50px;
 }
 
+.item1{
+    color: var(--th-color);
+    font-weight: 300;
+}
+
 .nav-bar{
     display: flex;
     justify-content: space-between;
     margin-right: 20px;
-    color: rgb(255, 153, 0);
+    color: black;
     list-style-type: none;
     padding: 14px;
+    align-items: center;
+    justify-items: center;
 }
 
 .main-action{
@@ -106,5 +114,17 @@ nav{
     justify-content: space-between;
     padding: 14px;
     list-style-type: none;
-
+    justify-items: flex-end;
+    justify-items: flex-end;
 }
+
+.fa-user{
+    color: var(--th-color);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

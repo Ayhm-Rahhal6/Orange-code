@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    width: 60%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.header{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: darkblue;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6rem;
+    border: 1px solid black; 
+    border-radius: 0.3rem;
+    flex-shrink: 0;
+}
+
+#textArea{
+    height: 20rem;
+    width: 100%;
+    background-color: cyan;
+    color: brown;
+    padding: 2rem;
+    font-weight: 100;
+    text-align: left;
+
+}
